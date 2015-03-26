@@ -1,0 +1,16 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+.ha-container{margin-left:20%;background-color: white; width:40%; padding: 0% 10% 0% 10%; }
+.ha-dislike{margin-left: 20px ;cursor:pointer;}
+.thumb{margin:3% 0% 3% 0%;}
+.ha-like{cursor:pointer;}
+body{background-color: gray;}
+.heading{margin-top: 10%}
+header{
+	color: white;
+	background-color: black;
+	font-size: 25px;
+	padding: 3%;
+}

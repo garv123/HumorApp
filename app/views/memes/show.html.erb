@@ -1,0 +1,19 @@
+<div class="meme">
+<%@memes.each do |meme| %>
+	<div class="heading"><h3><%= meme.title %></h3>
+	</div>
+	<% src = meme.src %>
+   <div class="img"><%= image_tag("#{src}") %> 
+   </div>
+
+	<div class="thumb">
+	<i id="<%= meme.id %>" class="fa fa-thumbs-up fa-lg ha-like"></i> <div style="display:inline" class="ha-like-number"><%= meme.likes %></div>
+	<i id="<%= meme.id %>" class="fa fa-thumbs-down fa-lg ha-dislike"></i><div style="display:inline" class="ha-dislike-number"><%= meme.dislikes %></div>
+	</div>
+	
+	
+<%end%>
+
+</div>
+<%= javascript_include_tag('application') %>
+</html>

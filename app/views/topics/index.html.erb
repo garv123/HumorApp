@@ -1,0 +1,14 @@
+<h1>List of Topics</h1>
+<table>
+
+<% @topics.each do |topic| %>
+
+<tr>
+<td><%= topic.topic_name %></td>
+<% abc = topic.id %>
+<td><%= link_to "Click Here",{controller:"memes",action:"show",id:"#{abc}"} %></td>
+</tr>
+
+<%end%>
+
+</table>
