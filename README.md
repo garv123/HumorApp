@@ -19,8 +19,8 @@ Major Gems Used-
 
 API'S can be accessed by changing the host file if running on localhost 
 
-127.0.0.1 humor-app-dev.com
-127.0.0.1	api.humor-app-dev.com
+example- 127.0.0.1 humor-app-dev.com
+         127.0.0.1	api.humor-app-dev.com
 
-and can be accessed as http://api.humor-app-dev.com:300/api/topics
+and can be accessed as http://api.humor-app-dev.com:3000/api/topics
 
