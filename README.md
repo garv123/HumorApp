@@ -5,9 +5,10 @@ Its an app for scraping 9gag memes.
 Setup
 
 1.Install mysql,create a database  and edit the config/database.yaml
-2. Run rake db:migrate to setup the database
+2. Run bundle install
+3. Run rake db:migrate to setup the database
 3. Feed some topic which you want to scrape for in the topics table.
-4. Run bundle install
+
 
 
 Major Gems Used-
