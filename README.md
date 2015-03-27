@@ -12,9 +12,9 @@ Setup
 
 Major Gems Used-
 
-1. Nokogiri - For scraping websites. ( A rake task in libs/memes.rake)
+1. Nokogiri - For scraping websites. ( A rake task in libs/tasks/memes.rake)
 2. Mechanize - for saving images while scraping. 
-3. Whenever - For running cron tasks.(Code in config/shedule.rb)
+3. Whenever - For running cron tasks.(Code in config/schedule.rb)
 
 
 API'S can be accessed by changing the host file if running on localhost 
